@@ -6,6 +6,7 @@ export default function Home() {
     <div className="flex bg-green-500 p-6 flex-col">
       <Link href={"/About"}>About</Link>
       <Link href={"/Services"}>Services</Link>
+      <Link href={"/blogs"}>Blogs</Link>
     </div>
   );
 }
