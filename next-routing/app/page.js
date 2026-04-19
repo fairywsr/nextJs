@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "faria Dev",
 };
+
 export default function Home() {
   return (
     <div className="flex bg-green-500 p-6 flex-col">
