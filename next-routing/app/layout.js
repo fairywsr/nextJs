@@ -7,14 +7,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  console.log(children, "in layout file");
+  // console.log(children, "in layout file");
   return (
     <html lang="en">
-      <body className="min-h-full flex flex-col">
-        <div className="bg-pink-300">Header</div>
-        {children}
-        <div className="bg-pink-300">footer</div>
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
