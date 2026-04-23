@@ -6,6 +6,7 @@ export const dynamicParams = true;
 // incremental site generation in next js we use revalidate keyword to regenerate new page or new apiCall by default it is false but we can pas no as a parameter after how much time reGenerate a page( 2 seconds )
 export const revalidate = 2;
 // static site generation for page
+// SSG
 export async function generateStaticparams() {
   //  data from api
   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
